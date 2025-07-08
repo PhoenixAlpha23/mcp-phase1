@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>LangGraph MCP Frontend</title></head>
+<body>
+  <h1>MCP Server Response:</h1>
+  <pre id="response">Loading...</pre>
+  <button id="callButton">Call Server</button>
+
+  <script>
+    const BACKEND_URL = "https://8000-firebase-mcp-phase1-1751814516579.cluster-ys234awlzbhwoxmkkse6qo3fz6.cloudworkstations.dev/"; // replace with your actual public URL
+
+    async function callServer() {
+      document.getElementById("response").innerText = "Waiting...";
+      try {
+        const res = await fetch(BACKEND_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: 'include',
+          body: JSON.stringify({ foo: "bar" })
+        });
+        const data = await res.json();
+        document.getElementById("response").innerText = JSON.stringify(data, null, 2);
+      } catch (e) {
+        document.getElementById("response").innerText = "Error: " + e.message;
+        console.error(e);
+      }
+    }
+
+    document.getElementById("callButton").addEventListener("click", callServer);
+  </script>
+</body>
+</html>

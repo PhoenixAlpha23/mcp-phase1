@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: Phase_1
+Version: 0.1.0
+Summary: LangGraph project using uv
+Author-email: Aryan <aryantandon2323@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: langgraph
+Requires-Dist: langchain-openai
+Requires-Dist: langgraph-cli[inmem]
