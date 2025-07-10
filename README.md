@@ -38,8 +38,6 @@ mcp-copywriter/
 ├── pyproject.toml             # Project metadata + dependencies (uv-based)
 ├── uv.lock                    # Lockfile for reproducible builds
 ├── .env                       # API keys and config (e.g., OpenAI keys)
-
-
 ---
 
 ## 🤖 Agent Flow
