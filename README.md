@@ -15,10 +15,10 @@
 
 This project aims to build an intelligent **AI Copywriter agent** capable of generating, analyzing, and refining written content tailored to brand-specific guidelines. The system is designed to act as a multi-skilled assistant that:
 
-- Drafts SEO-optimized blog content  
-- Generates tone-adaptive social media posts  
+- Draft SEO-optimized blog content  
+- Generate tone-adaptive social media posts  
 - Performs grammar, sentiment, and coherence refinements  
-- Detects potential plagiarism or style violations  
+- Detect potential plagiarism or style violations  
 
 The solution is highly modular, allowing external tools to be integrated via MCP with minimal coupling, supporting robust experimentation and extension.
 
