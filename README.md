@@ -1,4 +1,4 @@
-# 🧠 AI Copywriter Agent using LangGraph & MCP
+# 🧠 Agents and tool creation using LangGraph & MCP
 
 ## 🛠️ Tech Stack
 
