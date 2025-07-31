@@ -1,15 +1,12 @@
 [project]
-name = "Phase_1"
+name = "server"
 version = "0.1.0"
-description = "LangGraph project using uv"
-authors = [{ name = "Aryan", email = "aryantandon2323@gmail.com" }]
-requires-python = ">=3.10"
-
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
 dependencies = [
-  "langgraph",
-  "langchain-openai",
-  "langgraph-cli[inmem]"
+    "fastmcp>=2.10.6",
+    "langchain-groq>=0.3.6",
+    "langchain-mcp-adapters>=0.1.9",
+    "mcp>=1.12.2",
 ]
-
-[tool.uv]
-# optional settings

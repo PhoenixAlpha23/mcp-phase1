@@ -1,6 +1,4 @@
-# Dev environment
-pip
-autopep8
-
-# App
-flask
+langchain-groq
+langchain-mcp-adapters
+fastmcp
+mcp
