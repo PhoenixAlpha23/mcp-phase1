@@ -1,6 +1,6 @@
 # MCP Server & Tools
 
-This project aims to create an MCP (Minecraft Protocol) server and a set of related tools.
+This project aims to create an MCP (Model Context Protocol) and a set of tools.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project aims to create an MCP (Minecraft Protocol) server and a set of rela
 ### Prerequisites
 
 - [uv package manager](https://astral.sh/uv/)
-- Python (if required by your tools)
+- Python
 
 ### Installation
 
@@ -24,21 +24,19 @@ This project aims to create an MCP (Minecraft Protocol) server and a set of rela
     ```powershell
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
-
-2. **Install project dependencies**:
+2. **Create uv Virtual env**
+   ```cmd
+   uv venv
+   ```
+   
+4. **Install project dependencies**:
 
     ```sh
-    uv pip install -r requirements.txt
+    uv add -r requirements.txt
     ```
 
 ### Usage
+This handles the server side of the project, client would be claude desktop or a custom client which we need to create.
 
-Instructions for running the server and using the tools will be added soon.
 
 ## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.
