@@ -1,6 +1,6 @@
 # MCP Server & Tools
 
-This project aims to create an MCP (Minecraft Protocol) server and a set of related tools.
+This project aims to create an MCP (Model Context Protocol) and a set of tools.
 
 ## Features
 
