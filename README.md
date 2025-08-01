@@ -24,11 +24,15 @@ This project aims to create an MCP (Model Context Protocol) and a set of tools.
     ```powershell
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
-
-2. **Install project dependencies**:
+2. **Create uv Virtual env**
+   ```cmd
+   uv venv
+   ```
+   
+4. **Install project dependencies**:
 
     ```sh
-    uv pip install -r requirements.txt
+    uv add -r requirements.txt
     ```
 
 ### Usage
